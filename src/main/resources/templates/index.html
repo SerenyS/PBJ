@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>PB&J Tutorial</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/header :: header"></div>
+<h1> Tutorial of HOW TO DO A PB&J</h1>
+<h2> Ingredients needed:</h2>
+<ul>
+    <li> Two Slices of Bread</li>
+    <li> Peanut Butter</li>
+    <li> Jelly</li>
+</ul>
+<span>
+<img src="/img/peanutbutter.png">
+</span>
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

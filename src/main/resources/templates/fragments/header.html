@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<header th:fragment="header">
+    <nav>
+        <div>
+            <h1>PBJ</h1>
+        </div>
+        <ul>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/bread/breadSteps}">Step 1</a></li>
+            <li><a th:href="@{/peanut/peanutSteps}">Step 2</a></li>
+            <li><a th:href="@{/jelly/jellySteps}">Step 3</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
